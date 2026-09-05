@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="ABOMINANDO security terminal banner pure red edition">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="ABOMINANDO security terminal banner">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#000000"/>
-      <stop offset="0.52" stop-color="#050000"/>
+      <stop offset="0.55" stop-color="#050000"/>
       <stop offset="1" stop-color="#0b0000"/>
     </linearGradient>
     <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
@@ -11,10 +11,10 @@
       <stop offset="1" stop-color="#330000"/>
     </linearGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#ff0000" stroke-width="0.45" opacity="0.11"/>
+      <path d="M28 0H0V28" fill="none" stroke="#ff0000" stroke-width="0.45" opacity="0.10"/>
     </pattern>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
@@ -23,47 +23,84 @@
   <rect x="1.5" y="1.5" width="1197" height="407" rx="17" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.95"/>
   <rect x="0" y="50" width="1200" height="360" fill="url(#grid)"/>
 
+  <!-- terminal chrome -->
   <rect width="1200" height="50" rx="18" fill="#020000"/>
   <rect y="31" width="1200" height="19" fill="#020000"/>
-  <circle cx="28" cy="25" r="6" fill="#ff0000" opacity="1"/>
+  <circle cx="28" cy="25" r="6" fill="#ff0000"/>
   <circle cx="50" cy="25" r="6" fill="#ff0000" opacity="0.65"/>
   <circle cx="72" cy="25" r="6" fill="#ff0000" opacity="0.30"/>
   <text x="600" y="31" text-anchor="middle" font-family="monospace" font-size="13" fill="#ff0000" letter-spacing="2">abominando@security-lab: ~/profile</text>
   <text x="1162" y="31" text-anchor="end" font-family="monospace" font-size="10" fill="#ff0000" letter-spacing="2">SESSION::ACTIVE</text>
 
-  <g text-anchor="middle" font-family="monospace" font-size="70" font-weight="700" filter="url(#glow)">
-    <text x="596" y="142" fill="#ff0000" opacity="0.38">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="-2 0;-1 -1;-2 0" dur="0.28s" repeatCount="indefinite"/></text>
-    <text x="604" y="142" fill="#ff0000" opacity="0.62">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="2 0;1 1;2 0" dur="0.28s" repeatCount="indefinite"/></text>
-    <text x="600" y="142" fill="#ff0000">ABOMINANDO</text>
+  <!-- system telemetry -->
+  <g font-family="monospace" font-size="9" letter-spacing="1.6" fill="#ff0000">
+    <text x="72" y="72" opacity="0.48">HOST: ABOMINANDO-LAB</text>
+    <text x="300" y="72" opacity="0.48">KERNEL: SECURITY</text>
+    <text x="500" y="72" opacity="0.48">TRACE: ENABLED</text>
+    <text x="1128" y="72" text-anchor="end" opacity="0.72">SESSION ID: ABM-0x01</text>
+  </g>
+  <line x1="72" y1="81" x2="1128" y2="81" stroke="#ff0000" stroke-width="1" opacity="0.13"/>
+
+  <!-- identity -->
+  <g text-anchor="middle" font-family="monospace" font-size="64" font-weight="700" filter="url(#glow)">
+    <text x="596" y="139" fill="#ff0000" opacity="0.34">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="0 0;-2 0;1 0;0 0" keyTimes="0;0.04;0.08;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="604" y="139" fill="#ff0000" opacity="0.48">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="0 0;2 0;-1 0;0 0" keyTimes="0;0.04;0.08;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="600" y="139" fill="#ff0000">ABOMINANDO</text>
+  </g>
+  <text x="600" y="165" text-anchor="middle" font-family="monospace" font-size="12" fill="#ff0000" letter-spacing="4">// APPSEC · DEVSECOPS · SECURITY AUTOMATION</text>
+
+  <!-- left terminal -->
+  <g font-family="monospace" font-size="15.5">
+    <text x="72" y="205" fill="#ff0000" opacity="0.64">┌──(abominando㉿lab)-[~/security]</text>
+
+    <text x="72" y="235" fill="#ff0000">├─$ whoami</text>
+    <text x="195" y="235" fill="#ff0000" opacity="0.78">self-taught security &amp; software engineering learner</text>
+
+    <text x="72" y="267" fill="#ff0000">├─$ cat ./focus</text>
+    <text x="240" y="267" fill="#ff0000" opacity="0.78">AppSec · DevSecOps · Security Automation</text>
+
+    <text x="72" y="299" fill="#ff0000">├─$ echo $STACK</text>
+    <text x="255" y="299" fill="#ff0000" opacity="0.78">C++ · JavaScript · Node.js · Linux</text>
+
+    <text x="72" y="331" fill="#ff0000">└─$ ./status --current</text>
+    <text x="306" y="331" fill="#ff0000">building · breaking · hardening</text>
+
+    <text x="72" y="361" fill="#ff0000">$ _</text>
+    <rect x="103" y="347" width="9" height="18" fill="#ff0000"><animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/></rect>
   </g>
 
-  <text x="600" y="173" text-anchor="middle" font-family="monospace" font-size="13" fill="#ff0000" letter-spacing="4">// APPSEC · DEVSECOPS · REVERSE ENGINEERING</text>
+  <!-- objective HUD -->
+  <g font-family="monospace">
+    <rect x="790" y="191" width="338" height="157" rx="8" fill="#030000" stroke="#ff0000" stroke-width="1" opacity="0.92"/>
+    <line x1="790" y1="218" x2="1128" y2="218" stroke="#ff0000" stroke-width="1" opacity="0.25"/>
+    <text x="808" y="209" font-size="10" fill="#ff0000" letter-spacing="2">CURRENT OBJECTIVE</text>
+    <text x="808" y="244" font-size="13" fill="#ff0000">&gt; automate defensive</text>
+    <text x="808" y="264" font-size="13" fill="#ff0000">  security workflows</text>
 
-  <g font-family="monospace" font-size="17">
-    <text x="75" y="224" fill="#ff0000" opacity="0.70">┌──(abominando㉿lab)-[~/security]</text>
-    <text x="75" y="254" fill="#ff0000">└─$ whoami</text>
-    <text x="220" y="254" fill="#ff0000" opacity="0.78">self-taught security &amp; software engineering learner</text>
+    <text x="808" y="294" font-size="9" fill="#ff0000" opacity="0.55" letter-spacing="1.5">STATUS</text>
+    <text x="1110" y="294" text-anchor="end" font-size="10" fill="#ff0000">ACTIVE</text>
+    <rect x="808" y="303" width="302" height="5" rx="2.5" fill="#260000"/>
+    <rect x="808" y="303" width="246" height="5" rx="2.5" fill="#ff0000" opacity="0.78">
+      <animate attributeName="width" values="228;246;238;246" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
 
-    <text x="75" y="290" fill="#ff0000">└─$ focus --current</text>
-    <text x="292" y="290" fill="#ff0000" opacity="0.78">C++ · AppSec · automation · secure software</text>
-
-    <text x="75" y="326" fill="#ff0000">└─$ mode</text>
-    <text x="185" y="326" fill="#ff0000">BUILD / BREAK / HARDEN</text>
-    <text x="425" y="326" fill="#ff0000" opacity="0.58">// authorized labs only</text>
-
-    <text x="75" y="362" fill="#ff0000">└─$ _</text>
-    <rect x="143" y="347" width="10" height="20" fill="#ff0000"><animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/></rect>
+    <text x="808" y="329" font-size="9" fill="#ff0000" opacity="0.55" letter-spacing="1.5">LAB MODE</text>
+    <text x="1110" y="329" text-anchor="end" font-size="10" fill="#ff0000">AUTHORIZED ONLY</text>
   </g>
 
-  <g font-family="monospace" font-size="10" letter-spacing="2">
-    <text x="75" y="392" fill="#ff0000" opacity="0.48">NODE: BR-SEC</text>
-    <text x="255" y="392" fill="#ff0000" opacity="0.68">STATE: LEARNING</text>
-    <text x="470" y="392" fill="#ff0000" opacity="0.58">MODE: ENGINEERING</text>
-    <text x="1125" y="392" text-anchor="end" fill="#ff0000">ACCESS: GRANTED</text>
+  <!-- bottom telemetry -->
+  <line x1="72" y1="376" x2="1128" y2="376" stroke="#ff0000" stroke-width="1" opacity="0.13"/>
+  <g font-family="monospace" font-size="9" letter-spacing="1.5">
+    <text x="72" y="395" fill="#ff0000" opacity="0.50">NODE: BR-SEC-01</text>
+    <text x="265" y="395" fill="#ff0000">STATE: ONLINE</text>
+    <text x="445" y="395" fill="#ff0000" opacity="0.62">MODE: ENGINEERING</text>
+    <text x="700" y="395" fill="#ff0000" opacity="0.62">UPTIME: LEARNING</text>
+    <text x="1128" y="395" text-anchor="end" fill="#ff0000">ACCESS: GRANTED</text>
   </g>
 
-  <line x1="0" y1="58" x2="1200" y2="58" stroke="#ff0000" stroke-width="1" opacity="0.22">
-    <animate attributeName="y1" values="58;402;58" dur="4.8s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="58;402;58" dur="4.8s" repeatCount="indefinite"/>
+  <!-- slow scanline -->
+  <line x1="0" y1="58" x2="1200" y2="58" stroke="#ff0000" stroke-width="1" opacity="0.20">
+    <animate attributeName="y1" values="58;402;58" dur="5.8s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="58;402;58" dur="5.8s" repeatCount="indefinite"/>
   </line>
 </svg>
