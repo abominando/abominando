@@ -1,92 +1,126 @@
 <div align="center">
 
-# Fernando / abominando
+<img src="./assets/abominando-terminal.svg" width="100%" alt="ABOMINANDO security terminal" />
 
-### Cybersecurity • Software Engineering • AppSec • DevSecOps
+<br>
 
-> Building security tools, breaking down how software works, and learning how to make systems harder to break.
+![FOCUS](https://img.shields.io/badge/FOCUS-APPSEC-000000?style=for-the-badge&labelColor=000000&color=FFFFFF)
+![MODE](https://img.shields.io/badge/MODE-BUILD_%2F_BREAK_%2F_HARDEN-000000?style=for-the-badge&labelColor=000000&color=FFFFFF)
+![STATUS](https://img.shields.io/badge/STATUS-LEARNING-000000?style=for-the-badge&labelColor=000000&color=FFFFFF)
 
 </div>
 
-## About me
+---
 
-I'm a self-taught developer focused on the intersection of **Cybersecurity** and **Software Engineering**.
+## Sobre mim
 
-My main interests are **Application Security**, **DevSecOps**, **security automation**, **pentesting in authorized labs**, and **reverse engineering**. I like projects that go beyond simply using security tools — I want to understand how they work and build my own.
+Sou **autodidata** e direciono meus estudos para a interseção entre **Cybersecurity** e **Engenharia de Software**.
 
-- 🔐 Focused on **Cybersecurity + Software Engineering**
-- 🛡️ Interested in **AppSec, DevSecOps and defensive automation**
-- 🔍 Exploring **Pentesting and Reverse Engineering**
-- ⚙️ Currently studying **Cybersecurity and C++**
-- 🐧 Comfortable working with **Linux**
-- 🧠 Learning by building practical tools and labs
+Meu foco é entender software além da interface: como ele funciona internamente, como falhas aparecem, como podem ser identificadas com segurança e como transformar esse conhecimento em ferramentas, automações e sistemas mais resistentes.
 
-## Tech stack
+> **Foco atual:** C++, AppSec, DevSecOps, automação defensiva e fundamentos de segurança.
 
-### Languages
+---
 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+## Tecnologias
 
-### Backend & Data
+<div align="center">
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=FFFFFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF)
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=FFFFFF)
+![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FFFFFF)
 
-### Tools & Environment
+</div>
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+---
 
-## Security interests
+## Ambiente
+
+<div align="center">
+
+![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=FFFFFF)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-000000?style=flat-square&logo=visualstudio&logoColor=FFFFFF)
+![VS Code](https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=FFFFFF)
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=FFFFFF)
+
+</div>
+
+| Agora | Próximo passo | Explorando |
+| --- | --- | --- |
+| C++ e fundamentos low-level | Labs de AppSec | Engenharia reversa |
+| Cybersecurity | Pipelines DevSecOps | Pentest autorizado |
+| Linux | Secure coding | Análise de software |
+| Automação defensiva | Projetos de segurança | Internals |
+
+---
+
+## Roadmap
+
+<div align="center">
+
+<img src="./assets/roadmap.svg" width="100%" alt="ABOMINANDO security roadmap" />
+
+</div>
+
+---
+
+## Projetos
+
+Estou estruturando os primeiros projetos públicos para que cada repositório demonstre uma habilidade real, e não apenas ocupe espaço no perfil.
+
+Pretendo publicar principalmente:
+
+- ferramentas CLI de segurança;
+- laboratórios de AppSec;
+- automações defensivas e DevSecOps;
+- análise de tráfego e sistemas;
+- estudos de engenharia reversa;
+- writeups de ambientes próprios ou autorizados.
 
 ```text
-Cybersecurity
-├── Application Security
-├── DevSecOps
-├── Security Automation
-├── Pentesting (authorized environments)
-├── Reverse Engineering
-└── Defensive Engineering
+~/projects
+├── logwatch-cli             [planned]
+├── secure-pipeline-lab      [planned]
+├── reverse-engineering-lab  [planned]
+└── security-orchestrator    [long-term]
 ```
 
-## Portfolio roadmap
+`security-orchestrator` será o projeto principal: uma plataforma modular para integrar ferramentas de análise, auditoria e automação de segurança.
 
-These are projects I'm planning and building as I deepen my knowledge. The goal is for each project to demonstrate a real security or engineering skill instead of existing only to fill my profile.
+---
 
-- [ ] **LogWatch** — CLI security log analyzer
-- [ ] **SecureConfig Auditor** — Linux configuration and hardening auditor
-- [ ] **Dependency Risk Checker** — dependency security analysis for Node.js projects
-- [ ] **Web Security Lab** — intentionally vulnerable application with secure counterparts
-- [ ] **API Security Gateway** — security layer for APIs with validation, logging and rate limiting
-- [ ] **SecurePipeline** — DevSecOps CI/CD security laboratory
-- [ ] **PacketInspector** — network traffic analyzer written in C++
-- [ ] **Reverse Engineering Lab** — C++ crackmes and documented reversing exercises
-- [ ] **LabRecon Engine** — reconnaissance engine for owned/authorized lab environments
-- [ ] **Security Orchestrator** — platform that integrates multiple security analysis tools
+## Contribuições
 
-## Main project direction
+<div align="center">
 
-### Security Orchestrator
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abominando/abominando/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abominando/abominando/output/github-contribution-grid-snake.svg">
+  <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/abominando/abominando/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
-My long-term project will be a modular security platform that brings together tools for log analysis, configuration auditing, application security checks and other defensive workflows.
+</div>
 
-The idea is to grow it gradually as my knowledge evolves, combining **C++**, **Node.js**, **Linux**, **automation**, **AppSec** and **DevSecOps** in one larger engineering project.
+---
 
-```text
-                 Security Orchestrator
-                         │
-          ┌──────────────┼──────────────┐
-          │              │              │
-     Log Analysis   AppSec Checks   Config Audit
-          │              │              │
-          └──────── Security Report ────┘
-```
+## Contato
 
-## What I'm working toward
+<div align="center">
 
-I want this profile to document my progression from individual security tools to larger security engineering projects — with clean code, useful documentation, testing, Git workflows and technical writeups along the way.
+<a href="https://github.com/abominando">
+  <img src="https://img.shields.io/badge/GITHUB-abominando-000000?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+</a>
 
-> Security research and testing projects published here are intended for **owned, isolated or explicitly authorized environments**.
+<br><br>
+
+`entender // construir // testar // endurecer // documentar`
+
+<br><br>
+
+`© 2026 ABOMINANDO // SECURITY LAB`
+
+</div>
+
+> Projetos de segurança e testes publicados neste perfil são destinados a ambientes próprios, isolados ou explicitamente autorizados.
