@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="ABOMINANDO security terminal banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset="0.52" stop-color="#080808"/>
+      <stop offset="1" stop-color="#121212"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#252525"/>
+      <stop offset="0.5" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#252525"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-width="0.4" opacity="0.05"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="410" rx="18" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="407" rx="17" fill="none" stroke="url(#border)" stroke-width="2" opacity="0.7"/>
+  <rect x="0" y="50" width="1200" height="360" fill="url(#grid)"/>
+
+  <rect width="1200" height="50" rx="18" fill="#080808"/>
+  <rect y="31" width="1200" height="19" fill="#080808"/>
+  <circle cx="28" cy="25" r="6" fill="#eeeeee" opacity="0.9"/>
+  <circle cx="50" cy="25" r="6" fill="#a0a0a0" opacity="0.8"/>
+  <circle cx="72" cy="25" r="6" fill="#4b4b4b"/>
+  <text x="600" y="31" text-anchor="middle" font-family="monospace" font-size="13" fill="#929292" letter-spacing="2">abominando@security-lab: ~/profile</text>
+  <text x="1162" y="31" text-anchor="end" font-family="monospace" font-size="10" fill="#d0d0d0" letter-spacing="2">SESSION::ACTIVE</text>
+
+  <g text-anchor="middle" font-family="monospace" font-size="70" font-weight="700" filter="url(#glow)">
+    <text x="596" y="142" fill="#555" opacity="0.65">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="-2 0;-1 -1;-2 0" dur="0.28s" repeatCount="indefinite"/></text>
+    <text x="604" y="142" fill="#9d9d9d" opacity="0.45">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="2 0;1 1;2 0" dur="0.28s" repeatCount="indefinite"/></text>
+    <text x="600" y="142" fill="#f5f5f5">ABOMINANDO</text>
+  </g>
+
+  <text x="600" y="173" text-anchor="middle" font-family="monospace" font-size="13" fill="#b7b7b7" letter-spacing="4">// APPSEC · DEVSECOPS · REVERSE ENGINEERING</text>
+
+  <g font-family="monospace" font-size="17">
+    <text x="75" y="224" fill="#858585">┌──(abominando㉿lab)-[~/security]</text>
+    <text x="75" y="254" fill="#f0f0f0">└─$ whoami</text>
+    <text x="220" y="254" fill="#bdbdbd">self-taught security &amp; software engineering learner</text>
+
+    <text x="75" y="290" fill="#f0f0f0">└─$ focus --current</text>
+    <text x="292" y="290" fill="#bdbdbd">C++ · AppSec · automation · secure software</text>
+
+    <text x="75" y="326" fill="#f0f0f0">└─$ mode</text>
+    <text x="185" y="326" fill="#ffffff">BUILD / BREAK / HARDEN</text>
+    <text x="425" y="326" fill="#727272">// authorized labs only</text>
+
+    <text x="75" y="362" fill="#f0f0f0">└─$ _</text>
+    <rect x="143" y="347" width="10" height="20" fill="#fff"><animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <g font-family="monospace" font-size="10" letter-spacing="2">
+    <text x="75" y="392" fill="#666">NODE: BR-SEC</text>
+    <text x="255" y="392" fill="#999">STATE: LEARNING</text>
+    <text x="470" y="392" fill="#777">MODE: ENGINEERING</text>
+    <text x="1125" y="392" text-anchor="end" fill="#fff">ACCESS: GRANTED</text>
+  </g>
+
+  <line x1="0" y1="58" x2="1200" y2="58" stroke="#fff" stroke-width="1" opacity="0.08">
+    <animate attributeName="y1" values="58;402;58" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="58;402;58" dur="4.8s" repeatCount="indefinite"/>
+  </line>
+</svg>
