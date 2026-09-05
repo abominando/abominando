@@ -69,25 +69,6 @@
     <rect x="103" y="347" width="9" height="18" fill="#ff0000"><animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/></rect>
   </g>
 
-  <!-- objective HUD -->
-  <g font-family="monospace">
-    <rect x="790" y="191" width="338" height="157" rx="8" fill="#030000" stroke="#ff0000" stroke-width="1" opacity="0.92"/>
-    <line x1="790" y1="218" x2="1128" y2="218" stroke="#ff0000" stroke-width="1" opacity="0.25"/>
-    <text x="808" y="209" font-size="10" fill="#ff0000" letter-spacing="2">CURRENT OBJECTIVE</text>
-    <text x="808" y="244" font-size="13" fill="#ff0000">&gt; automate defensive</text>
-    <text x="808" y="264" font-size="13" fill="#ff0000">  security workflows</text>
-
-    <text x="808" y="294" font-size="9" fill="#ff0000" opacity="0.55" letter-spacing="1.5">STATUS</text>
-    <text x="1110" y="294" text-anchor="end" font-size="10" fill="#ff0000">ACTIVE</text>
-    <rect x="808" y="303" width="302" height="5" rx="2.5" fill="#260000"/>
-    <rect x="808" y="303" width="246" height="5" rx="2.5" fill="#ff0000" opacity="0.78">
-      <animate attributeName="width" values="228;246;238;246" dur="3.2s" repeatCount="indefinite"/>
-    </rect>
-
-    <text x="808" y="329" font-size="9" fill="#ff0000" opacity="0.55" letter-spacing="1.5">LAB MODE</text>
-    <text x="1110" y="329" text-anchor="end" font-size="10" fill="#ff0000">AUTHORIZED ONLY</text>
-  </g>
-
   <!-- bottom telemetry -->
   <line x1="72" y1="376" x2="1128" y2="376" stroke="#ff0000" stroke-width="1" opacity="0.13"/>
   <g font-family="monospace" font-size="9" letter-spacing="1.5">
