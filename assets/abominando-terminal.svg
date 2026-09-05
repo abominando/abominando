@@ -54,7 +54,7 @@
     <text x="72" y="205" fill="#ff0000" opacity="0.64">┌──(abominando㉿lab)-[~/security]</text>
 
     <text x="72" y="235" fill="#ff0000">├─$ whoami</text>
-    <text x="195" y="235" fill="#ff0000" opacity="0.78">self-taught security &amp; software engineering learner</text>
+    <text x="195" y="235" fill="#ff0000" opacity="0.78">nando // software engineer</text>
 
     <text x="72" y="267" fill="#ff0000">├─$ cat ./focus</text>
     <text x="240" y="267" fill="#ff0000" opacity="0.78">AppSec · DevSecOps · Security Automation</text>
