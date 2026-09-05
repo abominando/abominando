@@ -12,13 +12,13 @@
 
 ---
 
-## Sobre mim
+## About me
 
-Sou **autodidata** e direciono meus estudos para a interseção entre **Cybersecurity** e **Engenharia de Software**.
+I'm a **self-taught developer** focused on the intersection of **Cybersecurity** and **Software Engineering**.
 
-Meu foco é entender software além da interface: como ele funciona internamente, como falhas aparecem, como podem ser identificadas com segurança e como transformar esse conhecimento em ferramentas, automações e sistemas mais resistentes.
+I like understanding software beyond the interface: how it works internally, where it can fail, how those weaknesses can be identified safely, and how that knowledge can be turned into tools, automation, and more resilient systems.
 
-> **Foco atual:** C++, AppSec, DevSecOps, automação defensiva e fundamentos de segurança.
+> **Current focus:** C++, AppSec, DevSecOps, defensive automation, and security fundamentals.
 
 ---
 
