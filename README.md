@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/abominando-terminal.svg" width="100%" alt="ABOMINANDO security terminal" />
+<img src="./assets/abominando-terminal-v2.svg" width="100%" alt="ABOMINANDO security terminal" />
 
 <br>
 
