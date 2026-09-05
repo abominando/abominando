@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="ABOMINANDO security learning roadmap">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity="0.025"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="998" height="328" rx="16" fill="url(#panel)" stroke="#fff" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="328" rx="16" fill="url(#scan)"/>
+  <rect x="1" y="1" width="998" height="44" rx="16" fill="#101010"/><rect x="1" y="28" width="998" height="17" fill="#101010"/>
+  <circle cx="28" cy="22" r="5" fill="#fff" opacity="0.35"/><circle cx="47" cy="22" r="5" fill="#fff" opacity="0.6"/><circle cx="66" cy="22" r="5" fill="#fff" opacity="0.9"/>
+  <text x="500" y="27" text-anchor="middle" font-family="monospace" font-size="13" fill="#a8a8a8" letter-spacing="1.5">abominando@security-lab: ~/roadmap</text>
+
+  <text x="58" y="80" font-family="monospace" font-size="17" fill="#fff">$ cat learning-path.txt</text>
+  <text x="58" y="104" font-family="monospace" font-size="12" fill="#777">tracking skills, labs and engineering depth...</text>
+
+  <g font-family="monospace" font-size="14">
+    <text x="58" y="140" fill="#fff" opacity="0">[NOW]<animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="86" y="166" fill="#d4d4d4" opacity="0">├─ C++ and low-level fundamentals<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.10;0.16;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="86" y="190" fill="#d4d4d4" opacity="0">├─ Cybersecurity foundations<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.24;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="86" y="214" fill="#d4d4d4" opacity="0">└─ Linux + secure software practices<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.26;0.32;1" dur="8s" repeatCount="indefinite"/></text>
+
+    <text x="550" y="140" fill="#fff" opacity="0">[NEXT]<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.46;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="166" fill="#bdbdbd" opacity="0">├─ AppSec labs and tooling<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.48;0.56;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="190" fill="#bdbdbd" opacity="0">└─ DevSecOps pipelines<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.66;1" dur="8s" repeatCount="indefinite"/></text>
+
+    <text x="550" y="226" fill="#fff" opacity="0">[EXPLORING]<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.68;0.76;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="252" fill="#999" opacity="0">├─ Reverse engineering<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.76;0.84;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="276" fill="#999" opacity="0">└─ Authorized pentest labs<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.84;0.92;1" dur="8s" repeatCount="indefinite"/></text>
+  </g>
+
+  <line x1="58" y1="292" x2="942" y2="292" stroke="#fff" stroke-opacity="0.1"/>
+  <text x="58" y="316" font-family="monospace" font-size="12" fill="#9b9b9b">STATUS:</text>
+  <text x="120" y="316" font-family="monospace" font-size="12" fill="#fff">LEARNING_IN_PUBLIC</text>
+  <rect x="270" y="305" width="7" height="14" fill="#fff"><animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/></rect>
+  <text x="942" y="316" text-anchor="end" font-family="monospace" font-size="11" fill="#666">BUILD → TEST → DOCUMENT</text>
+</svg>
