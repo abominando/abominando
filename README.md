@@ -12,7 +12,7 @@
 
 ---
 
-## About me
+## Identity
 
 I'm self-taught and mostly focused on the security side of software.
 
