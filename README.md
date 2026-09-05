@@ -60,7 +60,7 @@ Meu foco é entender software além da interface: como ele funciona internamente
 
 <div align="center">
 
-<img src="./assets/roadmap.svg" width="100%" alt="ABOMINANDO security roadmap" />
+<img src="./assets/roadmap-ff0000.svg" width="100%" alt="ABOMINANDO security roadmap" />
 
 </div>
 
