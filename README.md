@@ -14,11 +14,11 @@
 
 ## About me
 
-I'm a **self-taught developer** focused on the intersection of **Cybersecurity** and **Software Engineering**.
+I'm self-taught and mostly into the security side of software.
 
-I like understanding software beyond the interface: how it works internally, where it can fail, how those weaknesses can be identified safely, and how that knowledge can be turned into tools, automation, and more resilient systems.
+Right now I'm spending most of my time with **C++**, **AppSec** and **DevSecOps**. I like figuring out how things work under the hood, where they can go wrong, and building tools or small labs around what I learn.
 
-> **Current focus:** C++, AppSec, DevSecOps, defensive automation, and security fundamentals.
+> **Currently learning:** C++, application security, defensive automation and reverse engineering.
 
 ---
 
