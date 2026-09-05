@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="ABOMINANDO security terminal banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 410" width="1200" height="410" role="img" aria-label="NANDO security terminal banner">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#000000"/>
@@ -43,9 +43,9 @@
 
   <!-- identity -->
   <g text-anchor="middle" font-family="monospace" font-size="64" font-weight="700" filter="url(#glow)">
-    <text x="596" y="139" fill="#ff0000" opacity="0.34">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="0 0;-2 0;1 0;0 0" keyTimes="0;0.04;0.08;1" dur="7s" repeatCount="indefinite"/></text>
-    <text x="604" y="139" fill="#ff0000" opacity="0.48">ABOMINANDO<animateTransform attributeName="transform" type="translate" values="0 0;2 0;-1 0;0 0" keyTimes="0;0.04;0.08;1" dur="7s" repeatCount="indefinite"/></text>
-    <text x="600" y="139" fill="#ff0000">ABOMINANDO</text>
+    <text x="596" y="139" fill="#ff0000" opacity="0.34">NANDO<animateTransform attributeName="transform" type="translate" values="0 0;-2 0;1 0;0 0" keyTimes="0;0.04;0.08;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="604" y="139" fill="#ff0000" opacity="0.48">NANDO<animateTransform attributeName="transform" type="translate" values="0 0;2 0;-1 0;0 0" keyTimes="0;0.04;0.08;1" dur="7s" repeatCount="indefinite"/></text>
+    <text x="600" y="139" fill="#ff0000">NANDO</text>
   </g>
   <text x="600" y="165" text-anchor="middle" font-family="monospace" font-size="12" fill="#ff0000" letter-spacing="4">// APPSEC · DEVSECOPS · SECURITY AUTOMATION</text>
 
