@@ -14,15 +14,15 @@
 
 ## About me
 
-I'm self-taught and mostly into the security side of software.
+I'm self-taught and mostly focused on the security side of software.
 
-Right now I'm spending most of my time with **C++**, **AppSec** and **DevSecOps**. I like figuring out how things work under the hood, where they can go wrong, and building tools or small labs around what I learn.
+These days I'm spending most of my time on **C++**, **AppSec** and **DevSecOps**. I like digging into how things work under the hood, figuring out where they break, and turning what I learn into small tools and labs.
 
 > **Currently learning:** C++, application security, defensive automation and reverse engineering.
 
 ---
 
-## Tecnologias
+## Tech
 
 <div align="center">
 
@@ -36,7 +36,7 @@ Right now I'm spending most of my time with **C++**, **AppSec** and **DevSecOps*
 
 ---
 
-## Ambiente
+## Environment
 
 <div align="center">
 
@@ -47,12 +47,12 @@ Right now I'm spending most of my time with **C++**, **AppSec** and **DevSecOps*
 
 </div>
 
-| Agora | Próximo passo | Explorando |
+| Current focus | Next up | Exploring |
 | --- | --- | --- |
-| C++ e fundamentos low-level | Labs de AppSec | Engenharia reversa |
-| Cybersecurity | Pipelines DevSecOps | Pentest autorizado |
-| Linux | Secure coding | Análise de software |
-| Automação defensiva | Projetos de segurança | Internals |
+| C++ and low-level fundamentals | AppSec labs | Reverse engineering |
+| Cybersecurity | DevSecOps pipelines | Authorized pentesting |
+| Linux | Secure coding | Software analysis |
+| Defensive automation | Security projects | Internals |
 
 ---
 
@@ -68,7 +68,7 @@ Right now I'm spending most of my time with **C++**, **AppSec** and **DevSecOps*
 
 ## Projects
 
-I'm putting together my first public projects with one goal in mind: each repo should show something I can actually build, test or understand — not just fill up the profile.
+I'm putting together my first public projects with one rule: every repo should show something I can actually build, test, or explain — not just take up space on the profile.
 
 Most of what I plan to publish will be around:
 
@@ -77,7 +77,7 @@ Most of what I plan to publish will be around:
 - defensive automation and DevSecOps;
 - traffic and system analysis;
 - reverse engineering practice;
-- writeups from my own labs or authorized environments.
+- writeups from my own labs or environments I'm allowed to test.
 
 ```text
 ~/projects
@@ -87,11 +87,11 @@ Most of what I plan to publish will be around:
 └── security-orchestrator    [long-term]
 ```
 
-`security-orchestrator` is the long-term project I want to build around: a modular platform for bringing security analysis, auditing and automation tools into one place.
+`security-orchestrator` is the long-term project I want to grow into a modular place for security analysis, auditing and automation tooling.
 
 ---
 
-## Contribuições
+## Contributions
 
 <div align="center">
 
@@ -105,7 +105,7 @@ Most of what I plan to publish will be around:
 
 ---
 
-## Contato
+## Contact
 
 <div align="center">
 
@@ -115,7 +115,7 @@ Most of what I plan to publish will be around:
 
 <br><br>
 
-`entender // construir // testar // endurecer // documentar`
+`understand // build // test // harden // document`
 
 <br><br>
 
@@ -123,4 +123,4 @@ Most of what I plan to publish will be around:
 
 </div>
 
-> Projetos de segurança e testes publicados neste perfil são destinados a ambientes próprios, isolados ou explicitamente autorizados.
+> Any security testing or tooling published here is meant for systems I own, isolated labs, or environments where I have explicit permission to test.
