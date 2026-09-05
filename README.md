@@ -115,7 +115,7 @@ Most of what I plan to publish will be around:
 
 <br><br>
 
-`understand // build // test // harden // document`
+`analyze // create // verify // secure // record`
 
 <br><br>
 
