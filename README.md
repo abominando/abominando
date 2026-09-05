@@ -66,18 +66,18 @@ Right now I'm spending most of my time with **C++**, **AppSec** and **DevSecOps*
 
 ---
 
-## Projetos
+## Projects
 
-Estou estruturando os primeiros projetos públicos para que cada repositório demonstre uma habilidade real, e não apenas ocupe espaço no perfil.
+I'm putting together my first public projects with one goal in mind: each repo should show something I can actually build, test or understand — not just fill up the profile.
 
-Pretendo publicar principalmente:
+Most of what I plan to publish will be around:
 
-- ferramentas CLI de segurança;
-- laboratórios de AppSec;
-- automações defensivas e DevSecOps;
-- análise de tráfego e sistemas;
-- estudos de engenharia reversa;
-- writeups de ambientes próprios ou autorizados.
+- security-focused CLI tools;
+- AppSec labs;
+- defensive automation and DevSecOps;
+- traffic and system analysis;
+- reverse engineering practice;
+- writeups from my own labs or authorized environments.
 
 ```text
 ~/projects
@@ -87,7 +87,7 @@ Pretendo publicar principalmente:
 └── security-orchestrator    [long-term]
 ```
 
-`security-orchestrator` será o projeto principal: uma plataforma modular para integrar ferramentas de análise, auditoria e automação de segurança.
+`security-orchestrator` is the long-term project I want to build around: a modular platform for bringing security analysis, auditing and automation tools into one place.
 
 ---
 
