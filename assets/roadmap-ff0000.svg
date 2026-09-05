@@ -27,28 +27,28 @@
   <text x="58" y="104" font-family="monospace" font-size="12" fill="#FF0000" opacity="0.7">tracking skills, labs and engineering depth...</text>
 
   <g font-family="monospace" font-size="14">
-    <text x="58" y="140" fill="#FF0000" opacity="0" filter="url(#redGlow)">[NOW]<animate attributeName="opacity" values="0;1;1" keyTimes="0;0.04;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="86" y="166" fill="#FF0000" opacity="0">├─ C++ and low-level fundamentals<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.12;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="86" y="190" fill="#FF0000" opacity="0">├─ Cybersecurity foundations<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.10;0.17;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="86" y="214" fill="#FF0000" opacity="0">└─ Linux + secure software practices<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.15;0.22;1" dur="4.8s" repeatCount="indefinite"/></text>
+    <text x="58" y="140" fill="#FF0000" opacity="0" filter="url(#redGlow)">[NOW]<animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="86" y="166" fill="#FF0000" opacity="0">├─ C++ and low-level fundamentals<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.10;0.16;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="86" y="190" fill="#FF0000" opacity="0">├─ Cybersecurity foundations<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.24;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="86" y="214" fill="#FF0000" opacity="0">└─ Linux + secure software practices<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.26;0.32;1" dur="8s" repeatCount="indefinite"/></text>
 
-    <text x="550" y="140" fill="#FF0000" opacity="0" filter="url(#redGlow)">[NEXT]<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.24;0.31;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="578" y="166" fill="#FF0000" opacity="0">├─ AppSec labs and tooling<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.29;0.36;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="578" y="190" fill="#FF0000" opacity="0">└─ DevSecOps pipelines<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.34;0.41;1" dur="4.8s" repeatCount="indefinite"/></text>
+    <text x="550" y="140" fill="#FF0000" opacity="0" filter="url(#redGlow)">[NEXT]<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.46;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="166" fill="#FF0000" opacity="0">├─ AppSec labs and tooling<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.48;0.56;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="190" fill="#FF0000" opacity="0">└─ DevSecOps pipelines<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.58;0.66;1" dur="8s" repeatCount="indefinite"/></text>
 
-    <text x="550" y="226" fill="#FF0000" opacity="0" filter="url(#redGlow)">[EXPLORING]<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.43;0.50;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="578" y="252" fill="#FF0000" opacity="0">├─ Reverse engineering<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.48;0.55;1" dur="4.8s" repeatCount="indefinite"/></text>
-    <text x="578" y="276" fill="#FF0000" opacity="0">└─ Authorized pentest labs<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.53;0.60;1" dur="4.8s" repeatCount="indefinite"/></text>
+    <text x="550" y="226" fill="#FF0000" opacity="0" filter="url(#redGlow)">[EXPLORING]<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.68;0.76;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="252" fill="#FF0000" opacity="0">├─ Reverse engineering<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.76;0.84;1" dur="8s" repeatCount="indefinite"/></text>
+    <text x="578" y="276" fill="#FF0000" opacity="0">└─ Authorized pentest labs<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.84;0.92;1" dur="8s" repeatCount="indefinite"/></text>
   </g>
 
   <line x1="58" y1="292" x2="942" y2="292" stroke="#FF0000" stroke-opacity="0.3"/>
   <text x="58" y="316" font-family="monospace" font-size="12" fill="#FF0000" opacity="0.8">STATUS:</text>
   <text x="120" y="316" font-family="monospace" font-size="12" fill="#FF0000" filter="url(#redGlow)">LEARNING_IN_PUBLIC</text>
-  <rect x="270" y="305" width="7" height="14" fill="#FF0000"><animate attributeName="opacity" values="1;1;0;0" dur="0.75s" repeatCount="indefinite"/></rect>
+  <rect x="270" y="305" width="7" height="14" fill="#FF0000"><animate attributeName="opacity" values="1;1;0;0" dur="0.9s" repeatCount="indefinite"/></rect>
   <text x="942" y="316" text-anchor="end" font-family="monospace" font-size="11" fill="#FF0000" opacity="0.65">BUILD → TEST → DOCUMENT</text>
 
   <line x1="1" y1="52" x2="999" y2="52" stroke="#FF0000" stroke-width="1" opacity="0.12">
-    <animate attributeName="y1" values="52;322;52" dur="3.8s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="52;322;52" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="y1" values="52;322;52" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="52;322;52" dur="5s" repeatCount="indefinite"/>
   </line>
 </svg>
