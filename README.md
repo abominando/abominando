@@ -4,9 +4,9 @@
 
 <br>
 
-![FOCUS](https://img.shields.io/badge/FOCUS-APPSEC-000000?style=for-the-badge&labelColor=000000&color=FFFFFF)
-![MODE](https://img.shields.io/badge/MODE-BUILD_%2F_BREAK_%2F_HARDEN-000000?style=for-the-badge&labelColor=000000&color=FFFFFF)
-![STATUS](https://img.shields.io/badge/STATUS-LEARNING-000000?style=for-the-badge&labelColor=000000&color=FFFFFF)
+![FOCUS](https://img.shields.io/badge/FOCUS-APPSEC-FF0000?style=for-the-badge&labelColor=000000&color=FF0000)
+![MODE](https://img.shields.io/badge/MODE-BUILD_%2F_BREAK_%2F_HARDEN-FF0000?style=for-the-badge&labelColor=000000&color=FF0000)
+![STATUS](https://img.shields.io/badge/STATUS-LEARNING-FF0000?style=for-the-badge&labelColor=000000&color=FF0000)
 
 </div>
 
@@ -26,11 +26,11 @@ Meu foco é entender software além da interface: como ele funciona internamente
 
 <div align="center">
 
-![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=FFFFFF)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF)
-![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=FFFFFF)
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=FFFFFF)
+![C++](https://img.shields.io/badge/C++-FF0000?style=for-the-badge&logo=cplusplus&logoColor=000000)
+![JavaScript](https://img.shields.io/badge/JavaScript-FF0000?style=for-the-badge&logo=javascript&logoColor=000000)
+![Node.js](https://img.shields.io/badge/Node.js-FF0000?style=for-the-badge&logo=nodedotjs&logoColor=000000)
+![MySQL](https://img.shields.io/badge/MySQL-FF0000?style=for-the-badge&logo=mysql&logoColor=000000)
+![Git](https://img.shields.io/badge/Git-FF0000?style=for-the-badge&logo=git&logoColor=000000)
 
 </div>
 
@@ -40,10 +40,10 @@ Meu foco é entender software além da interface: como ele funciona internamente
 
 <div align="center">
 
-![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=FFFFFF)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio-000000?style=flat-square&logo=visualstudio&logoColor=FFFFFF)
-![VS Code](https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=FFFFFF)
-![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=FFFFFF)
+![Linux](https://img.shields.io/badge/Linux-FF0000?style=flat-square&logo=linux&logoColor=000000)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-FF0000?style=flat-square&logo=visualstudio&logoColor=000000)
+![VS Code](https://img.shields.io/badge/VS_Code-FF0000?style=flat-square&logo=visualstudiocode&logoColor=000000)
+![GitHub](https://img.shields.io/badge/GitHub-FF0000?style=flat-square&logo=github&logoColor=000000)
 
 </div>
 
@@ -110,7 +110,7 @@ Pretendo publicar principalmente:
 <div align="center">
 
 <a href="https://github.com/abominando">
-  <img src="https://img.shields.io/badge/GITHUB-abominando-000000?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GITHUB-abominando-FF0000?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub" />
 </a>
 
 <br><br>
