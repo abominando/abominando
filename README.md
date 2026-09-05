@@ -62,28 +62,6 @@ These days I'm spending most of my time on **C++**, **AppSec** and **DevSecOps**
 
 <img src="./assets/roadmap-ff0000.svg" width="100%" alt="ABOMINANDO security roadmap" />
 
-<br><br>
-
-<code>pick the next lab</code>
-
-<br><br>
-
-<a href="https://github.com/abominando/abominando/issues/new?title=Next%20lab%3A%20AppSec&amp;body=Path%3A%20AppSec%0A%0AIdea%3A%20">
-  <img src="https://img.shields.io/badge/01_APPSEC-SUGGEST_A_LAB-FF0000?style=for-the-badge&labelColor=000000&color=FF0000" alt="Suggest an AppSec lab" />
-</a>
-<a href="https://github.com/abominando/abominando/issues/new?title=Next%20lab%3A%20DevSecOps&amp;body=Path%3A%20DevSecOps%0A%0AIdea%3A%20">
-  <img src="https://img.shields.io/badge/02_DEVSECOPS-SUGGEST_A_LAB-FF0000?style=for-the-badge&labelColor=000000&color=FF0000" alt="Suggest a DevSecOps lab" />
-</a>
-<a href="https://github.com/abominando/abominando/issues/new?title=Next%20lab%3A%20Reverse_Engineering&amp;body=Path%3A%20Reverse%20Engineering%0A%0AIdea%3A%20">
-  <img src="https://img.shields.io/badge/03_REVERSE_ENGINEERING-SUGGEST_A_LAB-FF0000?style=for-the-badge&labelColor=000000&color=FF0000" alt="Suggest a reverse engineering lab" />
-</a>
-
-<br><br>
-
-<a href="#projects">
-  <img src="https://img.shields.io/badge/EXPLORE-PROJECTS-FF0000?style=flat-square&labelColor=000000&color=FF0000" alt="Explore projects" />
-</a>
-
 </div>
 
 ---
