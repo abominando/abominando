@@ -47,12 +47,14 @@ jobs:
               min_y = min(y for _, y in cells)
               max_y = max(y for _, y in cells)
 
-              # Add one full extra row below the contribution grid so the
-              # snake always has a visible block under its lowest path.
+              # Add one full row above and one below the contribution grid.
+              # The snake animation briefly travels through y=-16, so the
+              # extra top row keeps it visually inside a block at all times.
+              grid_min_y = min_y - 16
               grid_max_y = max_y + 16
 
               existing = set(cells)
-              rows = range(min_y, grid_max_y + 1, 16)
+              rows = range(grid_min_y, grid_max_y + 1, 16)
               cols = range(min_x, max_x + 1, 16)
               missing = [
                   (x, y)
@@ -67,9 +69,9 @@ jobs:
 
               # Clip the moving snake and its food to the enlarged grid.
               clip_x = min_x - 2
-              clip_y = min_y - 2
+              clip_y = grid_min_y - 2
               clip_w = (max_x - min_x) + 16
-              clip_h = (grid_max_y - min_y) + 16
+              clip_h = (grid_max_y - grid_min_y) + 16
               clip = (
                   f'<defs><clipPath id="gridClip">'
                   f'<rect x="{clip_x}" y="{clip_y}" width="{clip_w}" height="{clip_h}"/>'
