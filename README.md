@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/abominando-terminal-v2.svg" width="100%" alt="ABOMINANDO security terminal" />
+<img src="./assets/atentarem-terminal-v2.svg" width="100%" alt="ATENTAREM security terminal" />
 
 <br>
 
@@ -60,7 +60,7 @@ These days I'm spending most of my time on **C++**, **AppSec** and **DevSecOps**
 
 <div align="center">
 
-<img src="./assets/roadmap-ff0000.svg" width="100%" alt="ABOMINANDO security roadmap" />
+<img src="./assets/roadmap-ff0000.svg" width="100%" alt="ATENTAREM security roadmap" />
 
 </div>
 
@@ -96,9 +96,9 @@ Most of what I plan to publish will be around:
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abominando/abominando/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abominando/abominando/output/github-contribution-grid-snake.svg">
-  <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/abominando/abominando/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/atentarem/atentarem/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/atentarem/atentarem/output/github-contribution-grid-snake.svg">
+  <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/atentarem/atentarem/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
 </div>
@@ -109,8 +109,8 @@ Most of what I plan to publish will be around:
 
 <div align="center">
 
-<a href="https://github.com/abominando">
-  <img src="https://img.shields.io/badge/GITHUB-abominando-FF0000?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub" />
+<a href="https://github.com/atentarem">
+  <img src="https://img.shields.io/badge/GITHUB-atentarem-FF0000?style=for-the-badge&logo=github&logoColor=000000" alt="GitHub" />
 </a>
 
 <br><br>
@@ -119,7 +119,7 @@ Most of what I plan to publish will be around:
 
 <br><br>
 
-`© 2026 ABOMINANDO // SECURITY LAB`
+`© 2026 ATENTAREM // SECURITY LAB`
 
 </div>
 
