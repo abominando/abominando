@@ -47,10 +47,12 @@ jobs:
               min_y = min(y for _, y in cells)
               max_y = max(y for _, y in cells)
 
-              # Fill missing cells so the snake never looks like it is moving
-              # outside the contribution grid.
+              # Add one full extra row below the contribution grid so the
+              # snake always has a visible block under its lowest path.
+              grid_max_y = max_y + 16
+
               existing = set(cells)
-              rows = range(min_y, max_y + 1, 16)
+              rows = range(min_y, grid_max_y + 1, 16)
               cols = range(min_x, max_x + 1, 16)
               missing = [
                   (x, y)
@@ -63,11 +65,11 @@ jobs:
                   for x, y in missing
               )
 
-              # Clip the animated snake to the exact grid bounds.
+              # Clip the moving snake and its food to the enlarged grid.
               clip_x = min_x - 2
               clip_y = min_y - 2
               clip_w = (max_x - min_x) + 16
-              clip_h = (max_y - min_y) + 16
+              clip_h = (grid_max_y - min_y) + 16
               clip = (
                   f'<defs><clipPath id="gridClip">'
                   f'<rect x="{clip_x}" y="{clip_y}" width="{clip_w}" height="{clip_h}"/>'
@@ -75,12 +77,12 @@ jobs:
               )
               svg = svg.replace('>', '>' + clip, 1)
 
-              # Keep the grid clean: only the moving snake stays red.
-              # This removes isolated red contribution cells that look like
-              # extra snake heads/dots.
+              # Keep contribution cells black. Preserve only one animated
+              # food dot (u0) so there is never a second stray red dot.
               extra_css = (
                   '.c{fill:#000000!important;animation:none!important}'
-                  '.u{display:none!important}'
+                  '.u:not(.u0){display:none!important}'
+                  '.u.u0{clip-path:url(#gridClip)}'
                   '.s{clip-path:url(#gridClip)}'
               )
               svg = svg.replace('</style>', extra_css + '</style>' + placeholders, 1)
